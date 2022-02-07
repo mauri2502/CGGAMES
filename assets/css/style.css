@@ -54,12 +54,11 @@ nav ul li{
 } 
 
 /* Parte del encabezado de la pagina*/ 
-<<<<<<< HEAD
-=======
 /* Animaciones y transiciones*/ 
 .transicion{
     transition: all 2s;
 }
+
 .transicion:hover {
 
     border: white solid 10px;
@@ -69,17 +68,21 @@ nav ul li{
     transform: translateX(50vh);
 }
 
->>>>>>> universot
+.universot{
+
+    padding: 5%;
+}
 /* Clases */ 
 .tituloPrincipal{
-    font-size: 15vh;
-    color: red; 
+    font-size: 15vh; 
+    color: red;
     text-align: center; 
     margin: 5% 5%;
+}
 /* text aling es para alineacion de texto*/
     
 
-} 
+
 main{
     font-size: 125%;
 } 
@@ -223,8 +226,8 @@ footer{
 #productos{
     grid-area: juegos;
 } 
-}
 
+}
 
 
 
@@ -595,4 +598,3 @@ footer{
         width: 53vh;
         margin-bottom: 35px;}
 }
-    
