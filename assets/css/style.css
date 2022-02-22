@@ -13,17 +13,22 @@
 } 
 /* escritorio */
 @media(min-width: 1024px){
-    html{
-        background-color: black;
-        color:white; }
+html{
+    background-color: black;
+    color: white;
+}
 
 body{ 
     font-family: "LuxuriousRoman-Regular" ;
-    height: 100vh;
+    height: 100vh; 
+    background-color: black;
+    color: white;
 } 
 header{
     font-family: 'Times New Roman', Times, serif;
+
 }
+
  
 /* listo de estilas */ 
 
@@ -111,6 +116,10 @@ p{
 }
 .tamañoDeImagen:hover{
     border: red solid 15px;
+} 
+article h2{
+margin: 10px 5px 20px 20px; 
+font-size: 6.5vh;
 }
 /* juegos */
 .tamañoDeImagen1{
@@ -168,6 +177,7 @@ input{
 }
 .distanciaDeImg{
     margin-bottom: 35px;
+    width: 30vh;
 } 
 
 
@@ -252,9 +262,16 @@ footer{
     body{ 
         font-family: "LuxuriousRoman-Regular" ;
         height: 100vh; 
+        background-color: black;
+        color: white;
     } 
+    .subrayado{
+        text-decoration: none ;
+    }
     header{
         font-family: 'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
     }
     h1{
         color: red;
@@ -314,6 +331,10 @@ footer{
     .lanzamientos{
         width: 70vh;
     }
+    article h2{
+        margin: 10px 5px 20px 20px; 
+        font-size: 6.5vh;
+        }
     .flexMenu{
         display: flex;
         flex-direction: column;
@@ -321,6 +342,10 @@ footer{
         justify-content: center;
     
     } 
+    article h2{
+        margin: 10px 5px 20px 20px; 
+        font-size: 5vh;
+        }
     
     /* Parte del encabezado de la pagina*/ 
     
@@ -337,8 +362,9 @@ footer{
     main{
         font-size: 125%;
     } 
-
-    
+    .moverTitulo{
+        transform: translateX(50vh);
+    }
     
     .tamañoDeImagen1{
         width: 51vh;
@@ -418,8 +444,13 @@ footer{
         text-align: left;
         margin: 5% 5%;
     } 
+    .distanciaDeImg{
+        margin-bottom: 35px;
+        width: 30vh;
+    } 
+    
     .ig{
-        width: 53vh;
+        width: 35vh;
         margin-bottom: 35px;}
 
 }
@@ -431,10 +462,21 @@ footer{
     body{ 
         font-family: "LuxuriousRoman-Regular" ;
         height: 100vh; 
+        background-color: black;
+        color: white;
     } 
     header{
         font-family: 'Times New Roman', Times, serif;
+        background-color: black;
+        color: white;
     }
+    .subrayado{
+        text-decoration: none ;
+    }
+    article h2{
+        margin: 10px 5px 20px 20px; 
+        font-size: 4vh;
+        }
     h1{
         color: red;
     }
@@ -442,6 +484,10 @@ footer{
         list-style-type: none  ;
         
     }
+    article h2{
+        margin: 10px 5px 20px 20px; 
+        font-size: 6.5vh;
+        }
     a{ 
         color: white
         } 
@@ -484,6 +530,10 @@ footer{
 
         
     }
+    .moverTitulo{
+        transform: translateX(15vh);
+    }
+    
     .flexMenu{
         display: flex;
         flex-direction: column;
@@ -594,7 +644,12 @@ footer{
         text-align: left;
         margin: 5% 5%;
     } 
+    .distanciaDeImg{
+        margin-bottom: 35px;
+        width: 30vh;
+    } 
+    
     .ig{
-        width: 53vh;
+        width: 30vh;
         margin-bottom: 35px;}
 }

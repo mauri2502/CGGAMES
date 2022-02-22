@@ -1,0 +1,25 @@
+{
+  "name": "cggames-castellano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/origen.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run buils-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauri2502/cggames.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauri2502/cggames/issues"
+  },
+  "homepage": "https://github.com/mauri2502/cggames#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.8"
+  }
+}
