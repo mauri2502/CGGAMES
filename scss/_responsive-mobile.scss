@@ -10,7 +10,14 @@
         } 
         .subrayado{
             text-decoration: none ;
+        } 
+        ul {
+            list-style-type: none  ;
+            
         }
+        a{ 
+            color: white;
+        } 
             header{
                 font-family: 'Times New Roman', Times, serif;
                 color: white;
@@ -217,6 +224,13 @@ article{
             color: red;
         }
     } 
+    ul {
+        list-style-type: none  ;
+        
+    }
+    a{ 
+        color: white;
+    } 
     .subrayado{
         text-decoration: none ;
     }
@@ -235,9 +249,10 @@ article{
             } 
         
     }
+}
     .distanciaDeImg{
         margin-bottom: 35px;
-        width: 30vh;
+        width: 40vh;
     } 
         p{
             text-align: justify;
@@ -245,9 +260,9 @@ article{
             width: 50%;
         } 
         .ig{
-            width: 30vh;
+            width: 45vh;
             margin-bottom: 35px;}
-    }
+    
         
         .centrarImg{
             display: flex;

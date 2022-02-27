@@ -99,6 +99,18 @@
     margin: 5% 5%;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: white;
+  }
+
+  .subrayado {
+    text-decoration: none;
+  }
+
   .titulo1 {
     color: blue;
     transform: translateX(65vh);
@@ -265,6 +277,12 @@
   }
   html .subrayado {
     text-decoration: none;
+  }
+  html ul {
+    list-style-type: none;
+  }
+  html a {
+    color: white;
   }
   html header {
     font-family: "Times New Roman", Times, serif;
@@ -473,6 +491,14 @@
     color: red;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: white;
+  }
+
   .subrayado {
     text-decoration: none;
   }
@@ -491,17 +517,20 @@
   .moverTitulo ul a {
     color: white;
   }
-  .moverTitulo .distanciaDeImg {
+
+  .distanciaDeImg {
     margin-bottom: 35px;
-    width: 30vh;
+    width: 40vh;
   }
-  .moverTitulo p {
+
+  p {
     text-align: justify;
     height: 20vh;
     width: 50%;
   }
-  .moverTitulo .ig {
-    width: 30vh;
+
+  .ig {
+    width: 45vh;
     margin-bottom: 35px;
   }
 
