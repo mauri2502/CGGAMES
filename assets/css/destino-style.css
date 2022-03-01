@@ -581,7 +581,7 @@
 
   .transicion {
     transition: all 1s;
-    width: 70vh;
+    width: 50vh;
   }
 
   .transicion:hover {
