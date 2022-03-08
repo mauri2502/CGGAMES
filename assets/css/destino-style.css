@@ -297,14 +297,14 @@
     color: red;
   }
   main h2 {
-    margin: 10px 5px;
+    margin: 1rem 1.5rem;
     font-size: 4vh;
   }
   main h3 {
-    margin: 5px 5px;
+    margin: 1rem 1rem;
   }
   main h4 {
-    margin: 6px 6px;
+    margin: 1rem 1rem;
   }
 
   ul {
@@ -322,11 +322,11 @@
   }
 
   p {
-    text-align: justify;
-    height: 20vh;
-    width: 50%;
-    font-size: 1.1rem;
+    display: none;
     text-align: left;
+    height: 3vh;
+    width: 5vh;
+    font-size: 2vh;
     margin: 5% 5%;
   }
 
@@ -341,7 +341,7 @@
   }
 
   .tamañoDeImagen:hover {
-    border: red solid 15px;
+    border: red solid 2vh;
   }
 
   .transicion {
@@ -349,21 +349,21 @@
   }
 
   .transicion:hover {
-    border: white solid 10px;
+    border: white solid 3vh;
   }
 
   nav ul li {
     width: 25vh;
-    height: 10px;
-    margin: 5% 5% 2% 10%;
-    padding: 20px;
+    height: 10vh;
+    margin: 0.5rem 1rem 1rem 1rem;
+    padding: 9vh;
     text-align: center;
     font-size: 3vh;
     color: white;
   }
 
   article h2 {
-    margin: 10px 5px 20px 20px;
+    margin: 10vh 5vh 15vh 10vh;
     font-size: 5vh;
   }
 
@@ -386,23 +386,23 @@
   }
 
   .tamañoDeImagen1 {
-    width: 51vh;
-    margin-bottom: 5%;
+    width: 30vh;
+    margin-bottom: 10vh;
     transition: all 1s;
   }
 
   .tamañoDeImagen1:hover {
-    border: green solid 10px;
+    border: green solid 3vh;
   }
 
   .tamañoDeImagen2 {
-    width: 51vh;
-    margin-bottom: 5%;
+    width: 30vh;
+    margin-bottom: 10vh;
     transition: all 1s;
   }
 
   .tamañoDeImagen2:hover {
-    border: blue solid 10px;
+    border: blue solid 3vh;
   }
 
   .h3Center {
@@ -413,7 +413,7 @@
     color: blue;
     text-align: center;
     font-size: 7.5vh;
-    margin-top: 5%;
+    margin-top: 5vh;
     display: flex;
     flex-wrap: nowrap;
   }
@@ -443,9 +443,9 @@
     grid-template-rows: 1fr 1fr;
     /* 2 columnas */
     justify-content: center;
-    margin-top: 2%;
-    margin-right: 50%;
-    margin-left: 40%;
+    margin-top: 10vh;
+    margin-right: 15vh;
+    margin-left: 13vh;
   }
 
   .gridAreas {
@@ -456,13 +456,13 @@
   }
 
   .distanciaDeImg {
-    margin-bottom: 35px;
+    margin-bottom: 15vh;
     width: 30vh;
   }
 
   .ig {
     width: 35vh;
-    margin-bottom: 35px;
+    margin-bottom: 15vh;
   }
 }
 /* Smartphone */
@@ -504,7 +504,7 @@
   }
 
   article h2 {
-    margin: 10px 5px 20px 20px;
+    margin: 2vh 3vh 5vh 4vh;
     font-size: 4vh;
   }
 
@@ -519,19 +519,20 @@
   }
 
   .distanciaDeImg {
-    margin-bottom: 35px;
+    margin-bottom: 12vh;
     width: 40vh;
   }
 
   p {
+    display: none;
     text-align: justify;
-    height: 20vh;
-    width: 50%;
+    height: 1vh;
+    width: 0.5vh;
   }
 
   .ig {
     width: 45vh;
-    margin-bottom: 35px;
+    margin-bottom: 13vh;
   }
 
   .centrarImg {
@@ -544,10 +545,10 @@
   }
 
   nav ul li {
-    width: 25vh;
-    height: 10px;
-    margin: 5% 5% 2% 10%;
-    padding: 20px;
+    width: 5vh;
+    height: 2vh;
+    margin: 1rem;
+    padding: 4vh;
     text-align: center;
     font-size: 3vh;
     color: white;
@@ -571,12 +572,12 @@
   }
 
   .tamañoDeImagen {
-    width: 40vh;
+    width: 38vh;
     transition: all 1s;
   }
 
   .tamañoDeImagen:hover {
-    border: red solid 15px;
+    border: red solid 2vh;
   }
 
   .transicion {
@@ -585,27 +586,27 @@
   }
 
   .transicion:hover {
-    border: white solid 5px;
+    border: white solid 2vh;
   }
 
   .tamañoDeImagen1 {
     width: 51vh;
-    margin-bottom: 5%;
+    margin-bottom: 2vh;
     transition: all 1s;
   }
 
   .tamañoDeImagen1:hover {
-    border: green solid 10px;
+    border: green solid 5vh;
   }
 
   .tamañoDeImagen2 {
     width: 51vh;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     transition: all 1s;
   }
 
   .tamañoDeImagen2:hover {
-    border: blue solid 10px;
+    border: blue solid 5vh;
   }
 
   .h3Center {
